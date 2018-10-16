@@ -19,8 +19,8 @@
 		AEC6298D20A05CFC00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC6298B20A05CFC00DFC8B9 /* Main.storyboard */; };
 		AEC6299020A05CFC00DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6298F20A05CFC00DFC8B9 /* main.m */; };
 		AEC6299820A05D1400DFC8B9 /* KZ_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6299720A05D1400DFC8B9 /* KZ_ViewController.m */; };
-		AEC6299B20A05D4200DFC8B9 /* KZ_Scheme_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6299A20A05D4100DFC8B9 /* KZ_Scheme_iOS.framework */; };
-		AEC6299E20A05D4700DFC8B9 /* KZ_Scheme_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6299D20A05D4700DFC8B9 /* KZ_Scheme_macOS.framework */; };
+		AEF94D7E2175FAC00063EE69 /* KZ_Scheme_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D7D2175FAC00063EE69 /* KZ_Scheme_iOS.framework */; };
+		AEF94D802175FAC40063EE69 /* KZ_Scheme_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D7F2175FAC40063EE69 /* KZ_Scheme_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +47,8 @@
 		AEC6299520A05D1400DFC8B9 /* KZ_ViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_ViewControllerDelegate.h; sourceTree = "<group>"; };
 		AEC6299620A05D1400DFC8B9 /* KZ_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_ViewController.h; sourceTree = "<group>"; };
 		AEC6299720A05D1400DFC8B9 /* KZ_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_ViewController.m; sourceTree = "<group>"; };
-		AEC6299A20A05D4100DFC8B9 /* KZ_Scheme_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Scheme_iOS.framework; sourceTree = "<group>"; };
-		AEC6299D20A05D4700DFC8B9 /* KZ_Scheme_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Scheme_macOS.framework; sourceTree = "<group>"; };
+		AEF94D7D2175FAC00063EE69 /* KZ_Scheme_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Scheme_iOS.framework; sourceTree = "<group>"; };
+		AEF94D7F2175FAC40063EE69 /* KZ_Scheme_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Scheme_macOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC6299B20A05D4200DFC8B9 /* KZ_Scheme_iOS.framework in Frameworks */,
+				AEF94D7E2175FAC00063EE69 /* KZ_Scheme_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC6299E20A05D4700DFC8B9 /* KZ_Scheme_macOS.framework in Frameworks */,
+				AEF94D802175FAC40063EE69 /* KZ_Scheme_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 		AEC6299920A05D4100DFC8B9 /* Scheme */ = {
 			isa = PBXGroup;
 			children = (
-				AEC6299A20A05D4100DFC8B9 /* KZ_Scheme_iOS.framework */,
+				AEF94D7D2175FAC00063EE69 /* KZ_Scheme_iOS.framework */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 		AEC6299C20A05D4700DFC8B9 /* Scheme */ = {
 			isa = PBXGroup;
 			children = (
-				AEC6299D20A05D4700DFC8B9 /* KZ_Scheme_macOS.framework */,
+				AEF94D7F2175FAC40063EE69 /* KZ_Scheme_macOS.framework */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Scheme-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Scheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -345,7 +345,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Scheme-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Scheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -375,7 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Scheme-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Scheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -405,7 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Scheme-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Scheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
