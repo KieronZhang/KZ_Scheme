@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_Scheme'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.summary = 'iOS & macOS scheme.'
     s.homepage = 'https://github.com/KieronZhang/KZ_Scheme'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
